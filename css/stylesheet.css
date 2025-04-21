@@ -23,20 +23,31 @@ img
 
 #arrow_left
 {
-	width: 20px;
-	height: 25px;
+	width: 90px;
+	height: 90px;
 	position: absolute;
-	margin: 25% 0 0 1%;
+	left: -20px;
+	margin: 35% 0 0 1%;
 	z-index: 100;
 }
 
 #arrow_right
 {
-	width: 20px;
-	height: 25px;
+	width: 90px;
+	height: 90px;
 	position: absolute;
-	right: 0px;
-	margin: 25% 1% 0 0;
+	right: -20px;
+	margin: 34.5% 1% 0 0;
+	z-index: 100;
+}
+
+#arrow_right1
+{
+	width: 26px;
+	height: 30px;
+	position: absolute;
+	right: 5px;
+	margin: 35% 0 0 1%;
 	z-index: 100;
 }
 
