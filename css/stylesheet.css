@@ -21,21 +21,32 @@ img
 	margin:0 auto;
 }
 
-#arrow_left
+#arrow_right1
 {
 	width: 26px;
 	height: 30px;
 	position: absolute;
+	right: 5px;
+	margin: 35% 0 0 1%;
+	z-index: 100;
+}
+
+#arrow_left
+{
+	width: 90px;
+	height: 90px;
+	position: absolute;
+	left: -20px;
 	margin: 35% 0 0 1%;
 	z-index: 100;
 }
 
 #arrow_right
 {
-	width: 26px;
-	height: 30px;
+	width: 90px;
+	height: 90px;
 	position: absolute;
-	right: 0px;
+	right: -20px;
 	margin: 35% 1% 0 0;
 	z-index: 100;
 }
